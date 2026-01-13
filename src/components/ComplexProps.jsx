@@ -6,14 +6,12 @@ const UserProfileCard = ({ data }) => {
       backgroundColor: theme.bg, 
       borderRadius: '12px', 
       padding: '24px', 
-      // This allows the card to grow and take up equal space
       flex: '1 1 450px', 
       boxShadow: '0 4px 10px rgba(0,0,0,0.05)',
       border: '1px solid rgba(0,0,0,0.05)',
       display: 'flex',
       flexDirection: 'column'
     }}>
-      {/* Header Section */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
         <div style={{ 
           fontSize: '24px', 
@@ -39,7 +37,6 @@ const UserProfileCard = ({ data }) => {
 
       <hr style={{ border: 'none', borderTop: '1px solid rgba(0,0,0,0.1)', margin: '24px 0' }} />
 
-      {/* Stats Section */}
       <div style={{ display: 'flex', justifyContent: 'space-between', textAlign: 'left' }}>
         <div>
           <div style={{ fontSize: '20px', fontWeight: 'bold', color: '#111827' }}>{stats.posts || stats.projects}</div>
@@ -55,7 +52,6 @@ const UserProfileCard = ({ data }) => {
         </div>
       </div>
 
-      {/* Action Buttons */}
       <div style={{ display: 'flex', gap: '12px', marginTop: '24px' }}>
         <button style={{ 
           flex: 2, 
@@ -109,7 +105,6 @@ function ComplexProps() {
           Complex props allow you to pass nested objects and functions, enabling sophisticated component configuration and interactions.
         </p>
         
-        {/* FIX: flex container with gap and width control */}
         <div className="flex flex-wrap gap-6">
           {userData.map((item) => (
             <UserProfileCard key={item.id} data={item} />

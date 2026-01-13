@@ -30,7 +30,7 @@ function Container({ children, layout = 'grid' }) {
 
 function ChildrenProps() {
   return (
-    <section className="p-8 bg-white rounded-xl shadow-lg max-w-5xl mx-auto">
+    <section className="p-8 bg-white rounded-xl shadow-lg max-w mx-auto">
       <h2 className="text-3xl mb-2 font-bold text-gray-800">Children Props</h2>
       <p className="mb-8 text-gray-600">
         The <code className="bg-gray-100 px-1 rounded">children</code> prop allows you to pass JSX elements or components as children to other components, enabling component composition.
