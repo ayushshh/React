@@ -7,7 +7,7 @@ function Card({ children, title, color = 'blue' }) {
   };
 
   return (
-    <div className={`border-l-4 ${colorClasses[color]} p-6 rounded-lg shadow-md flex-1 min-w-[250px]`}>
+    <div className={`border-l-4 ${colorClasses[color]} p-6 rounded-lg shadow-md flex-1 min-w-62.5`}>
       {title && <h3 className="text-xl font-bold mb-3 text-gray-800">{title}</h3>}
       <div className="text-gray-700">{children}</div>
     </div>

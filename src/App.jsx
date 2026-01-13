@@ -1,4 +1,3 @@
-import './App.css'
 import BasicProps from './components/BasicProps.jsx'
 import ChildrenProps from './components/ChildrenProps.jsx'
 import ComplexProps from './components/ComplexProps.jsx'
