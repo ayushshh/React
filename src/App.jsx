@@ -2,7 +2,7 @@ import BasicProps from './components/BasicProps.jsx'
 import ChildrenProps from './components/ChildrenProps.jsx'
 import ComplexProps from './components/ComplexProps.jsx'
 import RefProps from './components/RefProps.jsx'
-import  { ThemeToggler, ThemeProvider, UseTheme  } from './components/ThemeToggler.jsx'
+import ThemeToggler, { ThemeProvider} from './components/ThemeToggler.jsx'
 
 function Navigation(){
   const isDark = true;

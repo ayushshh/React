@@ -103,4 +103,4 @@ function ThemeToggler() {
   );
 }
 
-export default ThemeToggler
+export default ThemeToggler;
